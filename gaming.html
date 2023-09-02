@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+
     <title>Soham Patel</title>
     <style>
 
@@ -29,7 +32,6 @@
             min-height: 100%;
             z-index: -1; 
         }
-
         #navbar {
             background-color:transparent;
             overflow: hidden;
@@ -62,13 +64,6 @@
             box-sizing: border-box;
         }
 
-        .soham {
-            background-size: cover; 
-            background-repeat: no-repeat; 
-            background-position: center center; 
-            height: 100vh; 
-            color: white;
-        }
 
         .circle-image {
             width: 200px;
@@ -86,6 +81,7 @@
             max-height: 100%;
             border-radius: 50%; 
         }
+        
     </style>
 </head>
 <body>
@@ -93,6 +89,7 @@
     <video autoplay loop muted>
         <source src="My Movie.mp4" type="video/mp4">
     </video>
+
 
     <div id="navbar">
         <a href="index.html">Soham</a>
@@ -109,21 +106,37 @@
         </div>
     </div>
 
-    <section id="soham" class="soham">
-        <h2>. </h2>
-        <div class="circle-image" style="width: 250px; height: 250px;margin-top: -70px; ;">
-            <img src="pp.png" alt="Soham's Image" >
-        
+
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="ronald.jpg" alt="Asseto Corsa">
+            </div>
+            <div class="content">
+                <h1>Asseto Corsa</h1>
+                <h2>Card one</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt eius autem ipsam architecto dolores.</p>
+            </div>
         </div>
-        <lb></lb>
-        <h3 style="text-align: center; font-size: 25px;">Name: Soham Patel</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Pronouns: He/Him</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Age: 19</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Degree: Computer Science/Science(Statistics)</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Hobbies:</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Gaming &#x1F3AE</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Music &#x1F3A7</h3>
-        <h3 style="text-align: center; font-size: 25px; margin-top: -7px;">Football &#x26BD</h3>
-    </section>
+    
+        <div class="card">
+            <div class="content">
+                <h1>FIFA 23</h1>
+                <h2>Card two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt eius autem ipsam architecto dolores.</p>
+               
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <h1>Forza Horizon 5</h1>
+                <h2>Card three</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt eius autem ipsam architecto dolores.</p>
+                
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
