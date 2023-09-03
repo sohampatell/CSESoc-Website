@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards.css">
+
     <title>Soham Patel</title>
     <style>
 
@@ -29,7 +32,6 @@
             min-height: 100%;
             z-index: -1; 
         }
-
         #navbar {
             background-color:transparent;
             overflow: hidden;
@@ -47,6 +49,7 @@
             padding: 14px 16px;
             text-decoration: none;
             font-family: 'Lato', sans-serif;
+            font-size: 16px;
         }
 
         #navbar a:hover {
@@ -61,40 +64,7 @@
             box-sizing: border-box;
         }
 
-        /* Add a class to each section to define its background color */
-        .soham {
-            background-size: cover; 
-            background-repeat: no-repeat; 
-            background-position: center center; 
-            height: 100vh; 
-            color: white;
-        }
 
-        .gaming {
-            background-image: url('car.jpeg');
-            background-size: cover; 
-            background-repeat: no-repeat; 
-            background-position: center center;
-            height: 100vh; 
-            color: white;
-        }
-        
-        .music {
-            background-color: #66ccff; 
-            height:100vh;
-        }
-
-        .football {
-            background-image: url('ronaldo.jpg');
-            background-size: cover; 
-            background-repeat: no-repeat; 
-            background-position: center center; 
-            height: 100vh; 
-            color: rgb(3, 0, 0); 
-            transition: filter 0.5s;
-        }
-
-        /* Circular image placeholder */
         .circle-image {
             width: 200px;
             height: 200px;
@@ -111,13 +81,15 @@
             max-height: 100%;
             border-radius: 50%; 
         }
+        
     </style>
 </head>
 <body>
-
+    
     <video autoplay loop muted>
         <source src="My Movie.mp4" type="video/mp4">
     </video>
+
 
     <div id="navbar">
         <a href="index.html">Soham</a>
@@ -133,3 +105,44 @@
             </a>
         </div>
     </div>
+
+
+    <div class="container">
+        <div class="card">
+            <div class="image">
+                <img src="ronaldo.webp" alt="Ronaldo">
+            </div>
+            <div class="content">
+                <h1>Ronaldo</h1>
+                <h2>Card one</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt eius autem ipsam architecto dolores.</p>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="image">
+                <img src="messi.jpeg" alt="Messi">
+            </div>
+            <div class="content">
+                <h1>Messi</h1>
+                <h2>Card two</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt eius autem ipsam architecto dolores.</p>
+            </div>
+        </div>
+        
+    
+        <div class="card">
+            <div class="image">
+                <img src="neymar.jpeg" alt="Neymar">
+            </div>
+            <div class="content">
+                <h1>Neymar</h1>
+                <h2>Card three</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nesciunt eius autem ipsam architecto dolores.</p>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
