@@ -1,10 +1,8 @@
-/* Apply the Lato font to your text */
 h3 {
-    font-family: 'Lato', sans-serif; /* Use the Google Font or a backup generic font */
+    font-family: 'Lato', sans-serif; 
     text-align: center;
 }
 
-/* Apply the Lato font to section headers */
 h2 {
     font-family: 'Lato', sans-serif;
 }
