@@ -4,9 +4,11 @@ https://sohampatell.github.io/CSESoc-Website/
 
 ![Screenshot 2023-09-06 at 6 27 32 pm](https://github.com/sohampatell/CSESoc-Website/assets/106431572/a22badd8-15c6-4f57-bbfe-12d6b84f13a6)
 
+## Both the navbar and the hobbies on the landing page can travel the user to the web pages
+
 ![Screenshot 2023-09-06 at 6 29 07 pm](https://github.com/sohampatell/CSESoc-Website/assets/106431572/1f8fd9b3-7f3a-418e-a688-4296d37bddcb)
 
-Hovering over the style cards reveals colour and animation for the title
+## Hovering over the style cards reveals colour and animation for the title
 
 ![Screenshot 2023-09-06 at 6 29 59 pm](https://github.com/sohampatell/CSESoc-Website/assets/106431572/3aa315a8-4c3c-4f5f-9fb8-0ac268b97b19)
 
